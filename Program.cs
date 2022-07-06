@@ -63,7 +63,7 @@ int[,] SortDownLineMatrix(int[,] matrix)
     return matrix;
 }
 
-int line = 3, columns = 7;
+int line = 3, columns = 15;
 int[,] matrix = FillMatrix(line, columns);
 PrintMatrix(matrix);
 Console.WriteLine();
