@@ -35,19 +35,6 @@ void PrintMatrix(int[,] matrix)
 
 }
 
-/*int[] array1 = new int[] { 1, 2, 3 };
-
-int[] array2 = new int[] { 5, 4, 3 };
-
-int[] array3 = new int[array1.Length];
-int value = 0;
-for (int i = 0; i < array1.Length; i++)
-{
-    value += array1[i] * array2[i];
-
-}
-Console.WriteLine(value);*/
-
 int[,] TransposedMatrix(int[,] matrix)
 {
     int[,] resultMatrix = new int[matrix.GetLength(1), matrix.GetLength(0)];
@@ -63,7 +50,6 @@ int[,] TransposedMatrix(int[,] matrix)
     }
     return resultMatrix;
 }
-
 
 void MultiplicationTwoMatrix(int[,] firstMatrix, int[,] secondMatrix)
 {
